@@ -10,6 +10,8 @@ class Coordinate:
 
 matrix = [Coordinate(i, j, k) for i in range(3) for j in range(3) for k in range(3)]
 
+matrix_2 = [Coordinate(i, j, k) for i, j, k in zip(range(3), range(3), range(3))]
+
 
 @dataclass
 class Space:
